@@ -1,0 +1,24 @@
+ #bg{
+    background-image: url("{{asset('stades/image/logo2.png')}}");
+    background-image: url("{{asset('stades/image/menu_image.jpg')}}");
+ }
+ /* Add this CSS code to your stylesheet or <style> tag in the <head> of your HTML file */
+
+/* Style for the "Back" button */
+.btn-primary {
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: #f0f0f0;
+   color: #333;
+   text-decoration: none;
+   border: none;
+   border-radius: 5px;
+   font-size: 16px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+ }
+ 
+ .btn-back:hover {
+   background-color: #ddd;
+ }
+ 
